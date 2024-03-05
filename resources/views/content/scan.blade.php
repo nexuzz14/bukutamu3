@@ -18,7 +18,7 @@
                     .querySelector('meta[name="csrf-token"]')
                     .getAttribute("content"),
             },
-            body: JSON.stringify({
+            body: JSON.stringify({ 
                 'id': id,
             })
         }).then(response => {
