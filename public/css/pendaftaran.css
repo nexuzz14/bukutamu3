@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    max-height: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 50px 50px 50px 50px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+
+
+  .video-container {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+    margin: 40px;
+  }
+
+  #video {
+    width: 100%;
+    height: auto;
+  }
+
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> 7665846468ef48c0c463ebc88df5792f355873cc
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .button {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50px
+  }
+
+  .button:hover {
+    background-color: #0095ff;
+    color: #fff;
+  }
+
+  .form-section {
+    flex: 1;
+    margin-right: 20px;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    margin: 20px;
+  }
+
+  .button:hover {
+    background-color: #002fff;
+  }
+
+  /* Media Query for small screens (max-width: 600px) */
+  @media only screen and (max-width: 600px) {
+    #video-container {
+      margin: 10px 0;
+    }
+
+  }
