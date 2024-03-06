@@ -23,7 +23,10 @@
     @include('content.Client.pendaftaran')
     @include('components.footer')
     @elseif(Auth::check() && Auth::user()->role == 'user')
+    @include('content.Client.tutorial')
     @include('content.scan')
+    @include('content.Client.supportby')
+    @include('components.footer')
     @endif
 
 
