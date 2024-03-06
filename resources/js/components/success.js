@@ -33,9 +33,6 @@ export default function Success() {
     });
     return (
         <div className=''>
-            <div className='w-[250px] h-[400px] bg-white flex flex-col items-center bg-white absolute z-10'>
-
-            </div>
             <div className="w-[250px] h-[400px] bg-white flex flex-col items-center z-1" style={{backgroundImage: "url('foto/bg.jpg')"}}  id="verf">
             <div className="mt-10 mb-3">
                 <img className="w-10 h-10 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500" src="foto/p.png" alt="Bordered avatar" />
